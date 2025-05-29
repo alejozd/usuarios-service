@@ -1,0 +1,15 @@
+# Datos de conexión a la base de datos (rellena con tus datos reales en application.properties)
+spring.datasource.url=jdbc:mysql://TU_HOST:PUERTO/TU_BASE_DE_DATOS
+spring.datasource.username=TU_USUARIO
+spring.datasource.password=TU_PASSWORD
+
+# Dialecto y driver para MySQL
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.jpa.database-platform=org.hibernate.dialect.MySQLDialect
+
+# Configuraciones de JPA
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+
+# Puerto de la aplicación
+server.port=8080
