@@ -53,19 +53,7 @@ mvn spring-boot:run
 http://localhost:8080/swagger-ui/index.html
 
 ### 6. Estructura del proyecto
-usuariosservice/
-├── src/
-│   └── main/
-│       ├── java/com/alejo/usuariosservice/
-│       │   ├── controller/
-│       │   ├── model/
-│       │   └── repository/
-│       └── resources/
-│           ├── application.properties (IGNORADO)
-│           └── application.properties.example
-├── .gitignore
-├── README.md
-└── pom.xml
+<pre> ```text usuariosservice/ ├── src/ │ └── main/ │ ├── java/com/alejo/usuariosservice/ │ │ ├── controller/ │ │ ├── model/ │ │ └── repository/ │ └── resources/ │ ├── application.properties (IGNORADO) │ └── application.properties.example ├── .gitignore ├── README.md └── pom.xml ``` </pre>
 
 ### 6. 🔐 Seguridad
 Este proyecto omite application.properties en Git para proteger credenciales sensibles. Asegúrate de:
