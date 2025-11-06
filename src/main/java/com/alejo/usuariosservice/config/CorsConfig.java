@@ -14,7 +14,7 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/api/**") // Rutas que permitirán CORS
-                        .allowedOrigins("http://localhost:3000", "https://zetamini.ddns.net") // Cambia esto en prod
+                        .allowedOrigins("http://localhost:3000", "https://app.zdevs.uk") // Cambia esto en prod
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*");
             }
